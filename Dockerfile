@@ -1,5 +1,5 @@
 # Base image with CUDA and development tools
-FROM nvidia/cuda:11.8.0-devel-ubuntu22.04
+FROM nvidia/cuda:12.9.0-base-ubuntu20.04
 
 # Set DEBIAN_FRONTEND to noninteractive to avoid prompts during package installation
 ENV DEBIAN_FRONTEND=noninteractive
